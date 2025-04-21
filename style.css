@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #nav {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  #nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  #nav i {
+    color: white;
+  }
+  #box-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/cd/images/heroes/macbook-pro-enhanced/hero_macbookpro_announce__f7vm5bnswsae_large.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #box-2 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/cd/images/heroes/macbook-air/hero_macbook_air_avail__fpm99qgohx2e_large.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #box-3 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/cd/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #text {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    text-align: center;
+  }
+  #text h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  #text h3{
+    font-size: 30px;
+    font-weight: 350;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+  }
+  .links button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: blue;
+  }
+  
